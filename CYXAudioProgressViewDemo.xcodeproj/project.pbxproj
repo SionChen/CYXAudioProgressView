@@ -13,6 +13,7 @@
 		55BABC8C20A2CB75005320D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BABC8B20A2CB75005320D5 /* Assets.xcassets */; };
 		55BABC8F20A2CB75005320D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BABC8D20A2CB75005320D5 /* LaunchScreen.storyboard */; };
 		55BABC9220A2CB75005320D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BABC9120A2CB75005320D5 /* main.m */; };
+		55BABC9B20A2CBA4005320D5 /* CYXAudioProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BABC9A20A2CBA4005320D5 /* CYXAudioProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		55BABC8E20A2CB75005320D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55BABC9020A2CB75005320D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55BABC9120A2CB75005320D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55BABC9920A2CBA4005320D5 /* CYXAudioProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYXAudioProgressView.h; sourceTree = "<group>"; };
+		55BABC9A20A2CBA4005320D5 /* CYXAudioProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXAudioProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		55BABC8120A2CB70005320D5 /* CYXAudioProgressViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				55BABC9820A2CB92005320D5 /* CYXAudioProgressView */,
 				55BABC8220A2CB70005320D5 /* AppDelegate.h */,
 				55BABC8320A2CB70005320D5 /* AppDelegate.m */,
 				55BABC8520A2CB70005320D5 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				55BABC9120A2CB75005320D5 /* main.m */,
 			);
 			path = CYXAudioProgressViewDemo;
+			sourceTree = "<group>";
+		};
+		55BABC9820A2CB92005320D5 /* CYXAudioProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				55BABC9920A2CBA4005320D5 /* CYXAudioProgressView.h */,
+				55BABC9A20A2CBA4005320D5 /* CYXAudioProgressView.m */,
+			);
+			path = CYXAudioProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 				55BABC8720A2CB70005320D5 /* ViewController.m in Sources */,
 				55BABC9220A2CB75005320D5 /* main.m in Sources */,
 				55BABC8420A2CB70005320D5 /* AppDelegate.m in Sources */,
+				55BABC9B20A2CBA4005320D5 /* CYXAudioProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K999N3JYXU;
 				INFOPLIST_FILE = CYXAudioProgressViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K999N3JYXU;
 				INFOPLIST_FILE = CYXAudioProgressViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
